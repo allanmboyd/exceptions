@@ -1,0 +1,19 @@
+{
+    "name": "exceptions",
+    "version": "0.0.1",
+    "author": "Allan Boyd <millionyearsold@gmail.com>",
+    "description": "Syntax sugar for referencing and throwing common named and custom errors",
+    "scripts": {
+        "test": "nodeunit test"
+    },
+    "dependencies": {
+        "formaterrors": ">= 0.1.0"
+    },
+    "devDependencies": {
+        "should": "0.4.2",
+        "nodeunit": "0.6.4"
+    },
+    "engine": {
+        "node": ">= 0.6.6"
+    }
+}
