@@ -2,12 +2,22 @@
     "name": "exceptions",
     "version": "0.0.1",
     "author": "Allan Boyd <millionyearsold@gmail.com>",
-    "description": "Syntactic sugar for referencing and throwing common named and custom errors",
+    "description": "Syntactic sugar for referencing and throwing common named and custom errors/exceptions",
+    "keywords": "exception, error",
+    "bugs": { "url" : "http://github.com/allanmboyd/exceptions/issues" },
+    "main": "lib/exceptions.js",
+    "directories": {
+        "lib": "./lib"
+    },
+    "repository" : {
+        "type": "git",
+        "url": "http://github.com/allanmboyd/exceptions.git"
+    },
     "scripts": {
         "test": "./node_modules/jshint/bin/hint lib/exceptions.js test/testExceptions.js && ./node_modules/nodeunit/bin/nodeunit test/testExceptions.js"
     },
     "dependencies": {
-        "formaterrors": ">= 0.1.0"
+        "formaterrors": "0.1.0"
     },
     "devDependencies": {
         "jshint": "0.5.6",
