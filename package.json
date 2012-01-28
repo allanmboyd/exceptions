@@ -1,6 +1,6 @@
 {
     "name": "exceptions",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "author": "Allan Boyd <millionyearsold@gmail.com>",
     "description": "Syntactic sugar for referencing and throwing common named and custom errors/exceptions",
     "keywords": "exception, error",

@@ -4,7 +4,7 @@ Exceptions
 Trivial API and associated static instances of Exception that make it slightly simpler to throw common and
 custom exceptions that are not already available in Javascript. Using static instances for Exceptions also
 helps to maintain consistency between exception names both when throwing and catching (and reduces the likelihood
-that typos in name literal strings cause bugs).
+of typos in name literal strings causing bugs).
 
 The idea is that this works with the current Javascript Error mechanism as a complement to it. Exceptions and Errors
 are meant to co-exist - in fact all Exceptions really do is throw Errors and provide a well defined means to compare
