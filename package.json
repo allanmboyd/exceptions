@@ -17,12 +17,12 @@
         "test": "./node_modules/jshint/bin/hint lib/exceptions.js test/testExceptions.js && ./node_modules/nodeunit/bin/nodeunit test/testExceptions.js"
     },
     "dependencies": {
-        "formaterrors": "0.1.0"
+        "formaterrors": "0.1.1"
     },
     "devDependencies": {
         "jshint": "0.5.6",
         "should": "0.4.2",
-        "nodeunit": "0.6.4"
+        "nodeunit": "0.7.1"
     },
     "engine": {
         "node": ">= 0.6.6"
